@@ -1,0 +1,63 @@
+.title{
+    color: rgb(2, 0, 0);
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    text-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;    
+}
+.wrapAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wrapAll p{
+    color: rgb(255, 255, 255);
+    padding: 15px 125px;
+    border-radius: 999px;
+    font-size: 22px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wrapResps{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+.wrapResps h2{
+ font-size: 22px;
+ color: aliceblue;
+
+}
+
+.wrapResps h3{
+ font-size: 18px;
+ color: rgb(152, 253, 0);
+}
+
+
